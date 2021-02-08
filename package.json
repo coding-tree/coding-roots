@@ -1,0 +1,43 @@
+{
+  "name": "coding-roots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-tree/coding-roots.git"
+  },
+  "keywords": [],
+  "author": "Józef Rzadkosz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coding-tree/coding-roots/issues"
+  },
+  "homepage": "https://github.com/coding-tree/coding-roots#readme",
+  "dependencies": {
+    "@babel/preset-react": "^7.12.13",
+    "@storybook/addon-a11y": "^6.1.17",
+    "@storybook/addon-console": "^1.2.3",
+    "@storybook/addon-knobs": "^6.1.17",
+    "@storybook/addon-storysource": "^6.1.17",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "storybook": "^6.1.17",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@storybook/addon-actions": "^6.1.17",
+    "@storybook/addon-essentials": "^6.1.17",
+    "@storybook/addon-links": "^6.1.17",
+    "@storybook/react": "^6.1.17",
+    "babel-loader": "^8.2.2"
+  }
+}
