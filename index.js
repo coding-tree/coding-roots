@@ -1,4 +1,4 @@
-const PrimaryButton = require("atoms/Button");
+import PrimaryButton from "atoms/Button";
 
 module.exports = {
   PrimaryButton,

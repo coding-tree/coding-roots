@@ -12,7 +12,6 @@ const Button = styled.button`
   font-family: inherit;
   font-size: 1rem;
   border-radius: 4px;
-  background-color: var(--primary-color);
   color: var(--white-color);
   cursor: pointer;
   transition: 0.2s ease-in-out;
