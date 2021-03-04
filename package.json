@@ -2,11 +2,12 @@
   "name": "coding-roots",
   "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,7 @@
     "@storybook/addon-essentials": "^6.1.17",
     "@storybook/addon-links": "^6.1.17",
     "@storybook/react": "^6.1.17",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "rollup": "^2.40.0"
   }
 }
