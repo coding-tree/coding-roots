@@ -1,9 +1,9 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
 const PrimaryButton = ({ children }) => {
-  return <Button>{children}</Button>;
-};
+  return <Button>{children}</Button>
+}
 
 const Button = styled.button`
   padding: 0.3rem 0.7rem;
@@ -19,6 +19,6 @@ const Button = styled.button`
     background-color: var(--white-color);
     color: var(--primary-color);
   }
-`;
+`
 
-export default PrimaryButton;
+export default PrimaryButton

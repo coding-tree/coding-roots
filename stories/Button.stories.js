@@ -1,12 +1,12 @@
-import React from "react";
-import { text, withKnobs } from "@storybook/addon-knobs";
-import Button from "../atoms/Button";
+import React from 'react'
+import { text, withKnobs } from '@storybook/addon-knobs'
+import Button from '../atoms/Button'
 
 export const Primary = () => {
-  return <Button>{text("Title", "Click me")}</Button>;
-};
+  return <Button>{text('Title', 'Click me')}</Button>
+}
 
 export default {
-  title: "atoms/Button",
-  decorators: [withKnobs],
-};
+  title: 'atoms/Button',
+  decorators: [withKnobs]
+}
